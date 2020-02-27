@@ -8,6 +8,7 @@
 </head>
 <body>
 <h3 align="center">${headerMessage}</h3>
+<h1>Hello from home page</h1>
 <table align="center">
             <tr>
                 <td><a href="/SpringMVCFormValidation/login">Login</a>
