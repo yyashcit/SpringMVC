@@ -23,7 +23,7 @@ public class MyController {
 	
 	@Autowired
 	private StudentService studentService;
-
+int i=20;
 	public void setStudentService(StudentService studentService) {
 		this.studentService = studentService;
 	}
@@ -38,7 +38,7 @@ public class MyController {
 		return "home";
 	}
 	@RequestMapping(value ="/login" ,method=RequestMethod.GET)
-	public String loginPage(Model model){
+	public String myLoginPage(Model model){
 		model.addAttribute("studentCredential", new StudentCredential());
 		return "login";
 	}
