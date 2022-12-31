@@ -23,7 +23,7 @@ public class MyController {
 	
 	@Autowired
 	private StudentService studentService;
-
+int i=10;
 	public void setStudentService(StudentService studentService) {
 		this.studentService = studentService;
 	}
