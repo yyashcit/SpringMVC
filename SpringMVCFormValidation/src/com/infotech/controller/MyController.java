@@ -38,7 +38,7 @@ int i=10;
 		return "home";
 	}
 	@RequestMapping(value ="/login" ,method=RequestMethod.GET)
-	public String loginPage(Model model){
+	public String myLoginPage(Model model){
 		model.addAttribute("studentCredential", new StudentCredential());
 		return "login";
 	}
